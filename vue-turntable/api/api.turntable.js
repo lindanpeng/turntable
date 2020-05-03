@@ -7,6 +7,7 @@ module.exports = {
     {
       location: 1, // 位置 1-6
       type: 1, // 抽奖类型 1：活动 2：未中奖
+      name:'iphone X',
       icon: 'https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1406236855,840809371&fm=26&gp=0.jpg', // 转盘上的图片
       result_img: 'https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=4022536995,359514895&fm=26&gp=0.jpg', // 中奖结果图片
       rate: 90 // 中奖概率 1-100
@@ -14,6 +15,7 @@ module.exports = {
     {
       location: 2, // 位置 1-6
       type: 2, // 抽奖类型 1：活动 2：未中奖
+      name:'iphone X',
       icon: '', // 转盘上的图片
       result_img: 'https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2027419133,3685143289&fm=26&gp=0.jpg', // 中奖结果图片
       rate: 20 // 中奖概率 1-100
@@ -21,6 +23,7 @@ module.exports = {
     {
       location: 3, // 位置 1-6
       type: 1, // 抽奖类型 1：活动 2：未中奖
+      name:'iphone X',
       icon: 'https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1406236855,840809371&fm=26&gp=0.jpg', // 转盘上的图片
       result_img: 'https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=4022536995,359514895&fm=26&gp=0.jpg', // 中奖结果图片
       rate: 20 // 中奖概率 1-100
@@ -28,6 +31,7 @@ module.exports = {
     {
       location: 4, // 位置 1-6
       type: 2, // 抽奖类型 1：活动 2：未中奖
+      name:'iphone X',
       icon: '', // 转盘上的图片
       result_img: 'https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2027419133,3685143289&fm=26&gp=0.jpg', // 中奖结果图片
       rate: 20 // 中奖概率 1-100
@@ -35,6 +39,7 @@ module.exports = {
     {
       location: 5, // 位置 1-6
       type: 1, // 抽奖类型 1：活动 2：未中奖
+      name:'iphone X',
       icon: 'https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1406236855,840809371&fm=26&gp=0.jpg', // 转盘上的图片
       result_img: 'https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=4022536995,359514895&fm=26&gp=0.jpg', // 中奖结果图片
       rate: 10 // 中奖概率 1-100
@@ -42,6 +47,7 @@ module.exports = {
     {
       location: 6, // 位置 1-6
       type: 1, // 抽奖类型 1：活动 2：未中奖
+      name:'iphone X',
       icon: 'https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1406236855,840809371&fm=26&gp=0.jpg', // 转盘上的图片
       result_img: 'https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=4022536995,359514895&fm=26&gp=0.jpg', // 中奖结果图片
       rate: 10 // 中奖概率 1-100
