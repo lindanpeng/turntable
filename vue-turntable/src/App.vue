@@ -33,7 +33,7 @@ export default {
       err: '',
       logo: require('./assets/img/logo.png'),
       turntable: [],
-      rule: '<ol><li style="text-align: left;"><span style="color: rgb(255, 255, 255);">请说“开始抽奖”进行转盘抽奖，奖品奖券通过二维码进行领取；<br></span></li><li style="text-align: left;"><span style="color: rgb(255, 255, 255);">单个用户仅可领取一次；<br></span></li><li style="text-align: left;"><span style="color: rgb(255, 255, 255);">本次活动保留最终解释权。</span><br></li></ol>'
+      rule: '<ol><li style="text-align: left;"><span style="color: rgb(255, 255, 255);">请说“开始抽奖”进行转盘抽奖，奖品奖券加lindanpeng001进行领取；<br></span></li><li style="text-align: left;"><span style="color: rgb(255, 255, 255);">仅嘉凤同学可以参加本次活动；<br></span></li><li style="text-align: left;"><span style="color: rgb(255, 255, 255);">本次活动保留最终解释权。</span><br></li></ol>'
     }
   },
   created () {

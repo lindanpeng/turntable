@@ -33,6 +33,7 @@ export default {
           {
             location: 1, // 位置 1-6
             type: 1, // 抽奖类型 1：活动 2：未中奖
+             name:'',
             icon: '', // 转盘上的图片
             result_img: '', // 中奖结果图片
             rate: 20 // 中奖概率 1-100
@@ -112,7 +113,7 @@ export default {
         // 5. 显示中奖结果
         if (Number(randomRes.type) === this.turntableSuccess) {
           this.dialog.title = '中奖啦'
-          this.dialog.resultText = '请扫码领取'
+          this.dialog.resultText = '请扫码领取'+randomRes.name
           this.dialog.destoryTime = 15
         } else {
           this.dialog.title = '没抽中'
@@ -209,7 +210,7 @@ export default {
             position: absolute;
             top: 0;
             left: 0;
-            
+
             width: 250px;
             height: 250px;
             border-radius: 50%;
