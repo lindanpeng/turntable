@@ -38,19 +38,19 @@ module.exports = {
     },
     {
       location: 5, // 位置 1-6
-      type: 1, // 抽奖类型 1：活动 2：未中奖
-      name:'喜茶免单一周券',
-      icon: 'https://ae01.alicdn.com/kf/He8333d2a2b704e928c962b06fec59472L.jpg', // 转盘上的图片
-      result_img: 'https://ae01.alicdn.com/kf/He8333d2a2b704e928c962b06fec59472L.jpg', // 中奖结果图片
-      rate: 30 // 中奖概率 1-100
-    },
-    {
-      location: 6, // 位置 1-6
       type: 3, // 抽奖类型 1：活动 2：未中奖
       name:'香奈儿经典口盖包',
       icon: 'https://ae01.alicdn.com/kf/H8c8625df9c294dac81e50bfceb95c0e1r.jpg', // 转盘上的图片
       result_img: 'https://ae01.alicdn.com/kf/H0603fc710f994a41948c6fbb3f1ea170c.jpg', // 中奖结果图片
       rate: 100 // 中奖概率 1-100
+    },
+    {
+      location: 6, // 位置 1-6
+      type: 1, // 抽奖类型 1：活动 2：未中奖
+      name:'喜茶免单一周券',
+      icon: 'https://ae01.alicdn.com/kf/He8333d2a2b704e928c962b06fec59472L.jpg', // 转盘上的图片
+      result_img: 'https://ae01.alicdn.com/kf/He8333d2a2b704e928c962b06fec59472L.jpg', // 中奖结果图片
+      rate: 30 // 中奖概率 1-100
     }
   ]
 }
