@@ -1,7 +1,7 @@
 module.exports = {
   tp_id: 1,
   logo: '',
-  rule: '<ol><li style="text-align: left;"><span style="color: rgb(255, 255, 255);">请“点击抽奖”进行转盘抽奖，奖品奖券请联系lindanpeng进行领取；<br></span></li><li style="text-align: left;"><span style="color: rgb(255, 255, 255);">单个用户仅可领取一次；<br></span></li><li style="text-align: left;"><span style="color: rgb(255, 255, 255);">本次活动保留最终解释权。</span><br></li></ol>', // 活动说明
+  rule: '<ol><li style="text-align: left;"><span style="color: rgb(255, 255, 255);">请“点击抽奖”进行抽奖，奖品请联系lindanpeng进行领取；<br></span></li><li style="text-align: left;"><span style="color: rgb(255, 255, 255);">单个用户仅可领取一次；<br></span></li><li style="text-align: left;"><span style="color: rgb(255, 255, 255);">本次活动保留最终解释权。</span><br></li></ol>', // 活动说明
   awaken_img: '', // 唤醒图
   lottery: [
     {
