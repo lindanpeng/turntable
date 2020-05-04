@@ -89,6 +89,7 @@ export default {
         count += Number(item.rate)
         item.max = count
       })
+      console.log(this.selectedItems)
       var randomRes
       do {
         randomRes = this.turntable.filter((item) => {
