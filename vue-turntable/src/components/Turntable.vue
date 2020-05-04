@@ -132,7 +132,7 @@ export default {
           this.dialog.resultText = '恭喜您获得'+randomRes.name+"!"
           this.dialog.destoryTime = 8
         } else if (Number(randomRes.type) === this.turntableCheat) {
-          this.dialog.tile = '被骗啦'
+          this.dialog.title = '骗人的'
           this.dialog.resultText = '怎么可能有'+randomRes.name+"呢？再抽一次吧"
            this.dialog.destoryTime = 8
         }
