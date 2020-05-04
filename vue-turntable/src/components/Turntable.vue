@@ -94,8 +94,9 @@ export default {
         randomRes = this.turntable.filter((item) => {
         return randNum > item.min && randNum <= item.max
       })[0]
+      console.log(randomRes)
       } while  (this.selectedItems.has(randomRes))
-      this.selectedItems.add(selectedItems)
+      this.selectedItems.add(randomRes)
       // 若中奖没有中奖图片，则为未中奖
       if (randomRes.type === this.turntableSuccess && !randomRes.result_img) {
         randomRes = this.turntable.filter((item) => Number(item.type) === this.turntableFail)[0]
