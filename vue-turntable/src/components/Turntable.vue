@@ -33,7 +33,7 @@ export default {
           {
             location: 1, // 位置 1-6
             type: 1, // 抽奖类型 1：活动 2：未中奖
-             name:'',
+            name:'',
             icon: '', // 转盘上的图片
             result_img: '', // 中奖结果图片
             rate: 20 // 中奖概率 1-100
@@ -56,11 +56,17 @@ export default {
         resultText: '',
         destoryTime: 8
       },
-      isRunning: false
+      isRunning: false,
+      selectedItems:new Set(),
+      excuteTimes:0
     }
   },
   methods: {
     startRun () {
+      if (excuteTimes >= 3) {
+        alert('最多只能抽3次哦，明年今日再来吧')
+        return
+      }
       this.isRunning = true
 
       // 1.转盘匀速转动
@@ -82,9 +88,12 @@ export default {
         count += Number(item.rate)
         item.max = count
       })
+      do {
       let randomRes = this.turntable.filter((item) => {
         return randNum > item.min && randNum <= item.max
       })[0]
+      } while  (this.selectedItems.has(randomRes))
+
       // 若中奖没有中奖图片，则为未中奖
       if (randomRes.type === this.turntableSuccess && !randomRes.result_img) {
         randomRes = this.turntable.filter((item) => Number(item.type) === this.turntableFail)[0]
