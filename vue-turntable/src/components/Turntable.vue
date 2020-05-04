@@ -67,6 +67,7 @@ export default {
         alert('最多只能抽3次哦，明年今日再来吧')
         return
       }
+      this.excuteTimes++
       this.isRunning = true
 
       // 1.转盘匀速转动
