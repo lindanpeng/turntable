@@ -7,50 +7,50 @@ module.exports = {
     {
       location: 1, // 位置 1-6
       type: 1, // 抽奖类型 1：活动 2：未中奖
-      name:'iphone X',
-      icon: 'https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1406236855,840809371&fm=26&gp=0.jpg', // 转盘上的图片
-      result_img: 'https://ae01.alicdn.com/kf/H0603fc710f994a41948c6fbb3f1ea170c.jpg', // 中奖结果图片
+      name:'TOM FORD 口红',
+      icon: 'https://ae01.alicdn.com/kf/Hd2b5df0ea6294bc082391f0f4ba95780G.jpg', // 转盘上的图片
+      result_img: 'https://ae01.alicdn.com/kf/Hd2b5df0ea6294bc082391f0f4ba95780G.jpg', // 中奖结果图片
       rate: 90 // 中奖概率 1-100
     },
     {
       location: 2, // 位置 1-6
       type: 2, // 抽奖类型 1：活动 2：未中奖
-      name:'iphone X',
-      icon: '', // 转盘上的图片
-      result_img: 'https://ae01.alicdn.com/kf/H0603fc710f994a41948c6fbb3f1ea170c.jpg', // 中奖结果图片
+      name:'王者荣耀任意角色皮肤4套',
+      icon: 'https://ae01.alicdn.com/kf/H5eb10d1865ca4f00aaa91807b2b3bcbbS.jpg', // 转盘上的图片
+      result_img: 'https://ae01.alicdn.com/kf/H5eb10d1865ca4f00aaa91807b2b3bcbbS.jpg', // 中奖结果图片
       rate: 20 // 中奖概率 1-100
     },
     {
       location: 3, // 位置 1-6
       type: 1, // 抽奖类型 1：活动 2：未中奖
-      name:'iphone X',
-      icon: 'https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1406236855,840809371&fm=26&gp=0.jpg', // 转盘上的图片
-      result_img: 'https://ae01.alicdn.com/kf/H0603fc710f994a41948c6fbb3f1ea170c.jpg', // 中奖结果图片
+      name:'airpods pro',
+      icon: 'https://ae01.alicdn.com/kf/H36329a4317a341e1b8c9fed7543beb3ff.jpg', // 转盘上的图片
+      result_img: 'https://ae01.alicdn.com/kf/H36329a4317a341e1b8c9fed7543beb3ff.jpg', // 中奖结果图片
       rate: 20 // 中奖概率 1-100
     },
     {
       location: 4, // 位置 1-6
       type: 2, // 抽奖类型 1：活动 2：未中奖
-      name:'iphone X',
+      name:'',
       icon: '', // 转盘上的图片
       result_img: 'https://ae01.alicdn.com/kf/H0603fc710f994a41948c6fbb3f1ea170c.jpg', // 中奖结果图片
-      rate: 20 // 中奖概率 1-100
+      rate: 0 // 中奖概率 1-100
     },
     {
       location: 5, // 位置 1-6
       type: 1, // 抽奖类型 1：活动 2：未中奖
-      name:'iphone X',
-      icon: 'https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1406236855,840809371&fm=26&gp=0.jpg', // 转盘上的图片
+      name:'喜茶免单一周',
+      icon: 'https://ae01.alicdn.com/kf/He8333d2a2b704e928c962b06fec59472L.jpg', // 转盘上的图片
       result_img: 'https://ae01.alicdn.com/kf/H0603fc710f994a41948c6fbb3f1ea170c.jpg', // 中奖结果图片
       rate: 10 // 中奖概率 1-100
     },
     {
       location: 6, // 位置 1-6
       type: 1, // 抽奖类型 1：活动 2：未中奖
-      name:'iphone X',
-      icon: 'https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1406236855,840809371&fm=26&gp=0.jpg', // 转盘上的图片
-      result_img: 'https://ae01.alicdn.com/kf/H0603fc710f994a41948c6fbb3f1ea170c.jpg', // 中奖结果图片
-      rate: 10 // 中奖概率 1-100
+      name:'香奈儿经典口盖包',
+      icon: 'https://ae01.alicdn.com/kf/H8c8625df9c294dac81e50bfceb95c0e1r.jpg', // 转盘上的图片
+      result_img: 'https://ae01.alicdn.com/kf/H8c8625df9c294dac81e50bfceb95c0e1r.jpg', // 中奖结果图片
+      rate: 0 // 中奖概率 1-100
     }
   ]
 }
