@@ -24,7 +24,7 @@ module.exports = {
     {
       location: 3, // 位置 1-6
       type: 1, // 抽奖类型 1：活动 2：未中奖
-      name:'王者荣耀任意角色皮肤4套',
+      name:'王者荣耀任意角色皮肤5套',
       icon: 'https://ae01.alicdn.com/kf/H5eb10d1865ca4f00aaa91807b2b3bcbbS.jpg', // 转盘上的图片
       result_img: 'https://ae01.alicdn.com/kf/H5eb10d1865ca4f00aaa91807b2b3bcbbS.jpg', // 中奖结果图片
       rate: 14 // 中奖概率 1-100
