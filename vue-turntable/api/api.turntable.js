@@ -10,7 +10,7 @@ module.exports = {
       name:'TOM FORD 口红',
       icon: 'https://ae01.alicdn.com/kf/Hd2b5df0ea6294bc082391f0f4ba95780G.jpg', // 转盘上的图片
       result_img: 'https://ae01.alicdn.com/kf/Hd2b5df0ea6294bc082391f0f4ba95780G.jpg', // 中奖结果图片
-      rate: 25 // 中奖概率 1-100
+      rate: 30 // 中奖概率 1-100
     },
    
     {
@@ -19,7 +19,7 @@ module.exports = {
       name:'airpods pro',
       icon: 'https://ae01.alicdn.com/kf/H726ae83b8feb4b51a432076e6e9229c8n.jpg', // 转盘上的图片
       result_img: 'https://ae01.alicdn.com/kf/H726ae83b8feb4b51a432076e6e9229c8n.jpg', // 中奖结果图片
-      rate: 0 // 中奖概率 1-100
+      rate: 5 // 中奖概率 1-100
     },
     {
       location: 3, // 位置 1-6
@@ -27,7 +27,7 @@ module.exports = {
       name:'王者荣耀任意角色皮肤4套',
       icon: 'https://ae01.alicdn.com/kf/H5eb10d1865ca4f00aaa91807b2b3bcbbS.jpg', // 转盘上的图片
       result_img: 'https://ae01.alicdn.com/kf/H5eb10d1865ca4f00aaa91807b2b3bcbbS.jpg', // 中奖结果图片
-      rate: 25 // 中奖概率 1-100
+      rate: 15 // 中奖概率 1-100
     },
     {
       location: 4, // 位置 1-6
