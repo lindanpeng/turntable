@@ -114,7 +114,7 @@ export default {
         // 5. 显示中奖结果
         if (Number(randomRes.type) === this.turntableSuccess) {
           this.dialog.title = '中奖啦'
-          this.dialog.resultText = '请截图领取'+randomRes.name+"!"
+          this.dialog.resultText = '恭喜您获得'+randomRes.name+"!"
           this.dialog.destoryTime = 8
         } else if (Number(randomRes.type) === this.turntableCheat) {
           this.dialog.tile = '被骗啦'
