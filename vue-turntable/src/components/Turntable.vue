@@ -53,7 +53,7 @@ export default {
         title: '',
         resultImg: '',
         resultText: '',
-        destoryTime: 15
+        destoryTime: 8
       },
       isRunning: false
     }
@@ -114,7 +114,7 @@ export default {
         if (Number(randomRes.type) === this.turntableSuccess) {
           this.dialog.title = '中奖啦'
           this.dialog.resultText = '请截图领取'+randomRes.name+"!"
-          this.dialog.destoryTime = 15
+          this.dialog.destoryTime = 8
         } else {
           this.dialog.title = '没抽中'
           this.dialog.resultText = '真不巧，没抽中！'
