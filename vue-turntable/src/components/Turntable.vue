@@ -47,6 +47,7 @@ export default {
     return {
       turntableFail: 2,
       turntableSuccess: 1,
+      turntableCheat:3,
       turntableFailImg: require('../assets/img/no-gift.png'),
       dialog: {
         show: false,
@@ -115,7 +116,12 @@ export default {
           this.dialog.title = '中奖啦'
           this.dialog.resultText = '请截图领取'+randomRes.name+"!"
           this.dialog.destoryTime = 8
-        } else {
+        } else if (Number(randomRes.type) === this.turntableCheat) {
+          this.dialog.tile = '被骗啦'
+          this.dialog.resultText = '怎么可能有'+randomRes.name+"呢？"
+           this.dialog.destoryTime = 8
+        }
+        else {
           this.dialog.title = '没抽中'
           this.dialog.resultText = '真不巧，没抽中！'
           this.dialog.destoryTime = 3
