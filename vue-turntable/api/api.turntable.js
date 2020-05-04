@@ -12,21 +12,22 @@ module.exports = {
       result_img: 'https://ae01.alicdn.com/kf/Hd2b5df0ea6294bc082391f0f4ba95780G.jpg', // 中奖结果图片
       rate: 25 // 中奖概率 1-100
     },
+   
     {
       location: 2, // 位置 1-6
-      type: 1, // 抽奖类型 1：活动 2：未中奖
-      name:'王者荣耀任意角色皮肤4套',
-      icon: 'https://ae01.alicdn.com/kf/H5eb10d1865ca4f00aaa91807b2b3bcbbS.jpg', // 转盘上的图片
-      result_img: 'https://ae01.alicdn.com/kf/H5eb10d1865ca4f00aaa91807b2b3bcbbS.jpg', // 中奖结果图片
-      rate: 10 // 中奖概率 1-100
-    },
-    {
-      location: 3, // 位置 1-6
       type: 1, // 抽奖类型 1：活动 2：未中奖
       name:'airpods pro',
       icon: 'https://ae01.alicdn.com/kf/H726ae83b8feb4b51a432076e6e9229c8n.jpg', // 转盘上的图片
       result_img: 'https://ae01.alicdn.com/kf/H726ae83b8feb4b51a432076e6e9229c8n.jpg', // 中奖结果图片
-      rate: 5 // 中奖概率 1-100
+      rate: 0 // 中奖概率 1-100
+    },
+    {
+      location: 3, // 位置 1-6
+      type: 1, // 抽奖类型 1：活动 2：未中奖
+      name:'王者荣耀任意角色皮肤4套',
+      icon: 'https://ae01.alicdn.com/kf/H5eb10d1865ca4f00aaa91807b2b3bcbbS.jpg', // 转盘上的图片
+      result_img: 'https://ae01.alicdn.com/kf/H5eb10d1865ca4f00aaa91807b2b3bcbbS.jpg', // 中奖结果图片
+      rate: 25 // 中奖概率 1-100
     },
     {
       location: 4, // 位置 1-6
