@@ -24,8 +24,8 @@ module.exports = {
       location: 3, // 位置 1-6
       type: 1, // 抽奖类型 1：活动 2：未中奖
       name:'airpods pro',
-      icon: 'https://ae01.alicdn.com/kf/H36329a4317a341e1b8c9fed7543beb3ff.jpg', // 转盘上的图片
-      result_img: 'https://ae01.alicdn.com/kf/H36329a4317a341e1b8c9fed7543beb3ff.jpg', // 中奖结果图片
+      icon: 'https://pics.images.ac.cn/image/5eafb70c24868.html', // 转盘上的图片
+      result_img: 'https://pics.images.ac.cn/image/5eafb70c24868.html', // 中奖结果图片
       rate: 20 // 中奖概率 1-100
     },
     {
