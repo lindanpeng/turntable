@@ -1,7 +1,7 @@
 module.exports = {
   tp_id: 1,
   logo: '',
-  rule: '<ol><li style="text-align: left;"><span style="color: rgb(255, 255, 255);">请“点击抽奖”进行转盘抽奖，奖品奖券通过二维码进行领取；<br></span></li><li style="text-align: left;"><span style="color: rgb(255, 255, 255);">单个用户仅可领取一次；<br></span></li><li style="text-align: left;"><span style="color: rgb(255, 255, 255);">本次活动保留最终解释权。</span><br></li></ol>', // 活动说明
+  rule: '<ol><li style="text-align: left;"><span style="color: rgb(255, 255, 255);">请“点击抽奖”进行转盘抽奖，奖品奖券请联系lindanpeng进行领取；<br></span></li><li style="text-align: left;"><span style="color: rgb(255, 255, 255);">单个用户仅可领取一次；<br></span></li><li style="text-align: left;"><span style="color: rgb(255, 255, 255);">本次活动保留最终解释权。</span><br></li></ol>', // 活动说明
   awaken_img: '', // 唤醒图
   lottery: [
     {
@@ -24,8 +24,8 @@ module.exports = {
       location: 3, // 位置 1-6
       type: 1, // 抽奖类型 1：活动 2：未中奖
       name:'airpods pro',
-      icon: 'https://ae01.alicdn.com/kf/H865c7a51841b45cd917d3d7267ae6ee3q.jpg', // 转盘上的图片
-      result_img: 'https://ae01.alicdn.com/kf/H865c7a51841b45cd917d3d7267ae6ee3q.jpg', // 中奖结果图片
+      icon: 'https://ae01.alicdn.com/kf/H726ae83b8feb4b51a432076e6e9229c8n.jpg', // 转盘上的图片
+      result_img: 'https://ae01.alicdn.com/kf/H726ae83b8feb4b51a432076e6e9229c8n.jpg', // 中奖结果图片
       rate: 20 // 中奖概率 1-100
     },
     {
