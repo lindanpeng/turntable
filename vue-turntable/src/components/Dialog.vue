@@ -28,7 +28,7 @@ export default {
           title: '',
           resultImg: '',
           resultText: '',
-          destoryTime: 15
+          destoryTime: 8
         }
       }
     }

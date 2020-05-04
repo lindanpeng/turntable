@@ -113,7 +113,7 @@ export default {
         // 5. 显示中奖结果
         if (Number(randomRes.type) === this.turntableSuccess) {
           this.dialog.title = '中奖啦'
-          this.dialog.resultText = '请截图领取'+randomRes.name
+          this.dialog.resultText = '请截图领取'+randomRes.name+"!"
           this.dialog.destoryTime = 15
         } else {
           this.dialog.title = '没抽中'
