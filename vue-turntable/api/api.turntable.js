@@ -10,7 +10,7 @@ module.exports = {
       name:'TOM FORD 口红',
       icon: 'https://ae01.alicdn.com/kf/Hd2b5df0ea6294bc082391f0f4ba95780G.jpg', // 转盘上的图片
       result_img: 'https://ae01.alicdn.com/kf/Hd2b5df0ea6294bc082391f0f4ba95780G.jpg', // 中奖结果图片
-      rate: 50 // 中奖概率 1-100
+      rate: 30 // 中奖概率 1-100
     },
     {
       location: 2, // 位置 1-6
