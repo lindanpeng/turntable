@@ -63,8 +63,8 @@ export default {
   },
   methods: {
     startRun () {
-      if (this.excuteTimes >= 3) {
-        alert('最多只能抽3次哦，明年今日再来吧')
+      if (this.excuteTimes >= 2) {
+        alert('最多只能抽2次哦，明年今日再来吧')
         return
       }
       this.isRunning = true
